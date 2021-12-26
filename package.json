@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@inertiajs/inertia": "^0.9.4",
+        "@inertiajs/inertia-svelte": "^0.7.4",
+        "@inertiajs/progress": "^0.2.6",
+        "axios": "^0.21",
+        "bootstrap": "^4.6.1",
+        "laravel-mix": "^6.0.6",
+        "laravel-mix-svelte": "^0.5.0",
+        "lodash": "^4.17.19",
+        "sass": "^1.45.1",
+        "sass-loader": "^12.4.0",
+        "svelte": "^3.44.3",
+        "svelte-loader": "^3.1.2"
+    }
+}
